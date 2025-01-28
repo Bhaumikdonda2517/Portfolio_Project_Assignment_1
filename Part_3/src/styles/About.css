@@ -1,0 +1,21 @@
+.about {
+    padding: 50px 20px;
+    background-color: rgb(220, 218, 218);
+    border-top: 4px solid var(--primary-color);
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--secondary-color);
+}

@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.flex-container {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px 0;
+    gap: 40px;
+}
+
+.flex-container.flex {
+    display: flex;
+    background-color: #696969;
+    gap: 20px;
+}
+
+.flex-container.column {
+    flex-direction: column;
+    background-color: #808080;
+}
+
+.flex-container.center {
+    justify-content: center;
+    background-color: #A8A8A8;
+    align-items: center;
+    height: 150px;
+}
+
+.flex-container.space-around {
+    justify-content: space-around;
+    background-color: #BEBEBE;
+}
+
+.flex-container.flex-start {
+    justify-content: flex-start;
+    background-color: #DCDCDC;
+}
+
+.flex-container.stretch {
+    align-items: stretch;
+    background-color: #DCDCDC;
+}
+
+.flex-container.flex-grow {
+    justify-content: center;
+    background-color: 	#BEBEBE;
+}
+
+.flex-container.flex-shrink {
+    flex-wrap: nowrap;
+    background-color: #A8A8A8;
+}
+
+.flex-container.align-self {
+    height: 150px;
+    background-color: #808080;
+}
+
+flex-container.flex {
+    background-color: #696969;
+    color: white;
+    width: 10px;
+    height: 100px;
+}
+
+.box {
+    background-color: 	#DCDCDC;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    flex-grow: 1;
+    gap: 200px;
+}
+
+.box.flex-grow {
+    flex-grow: 2;
+}
+
+.box.flex-shrink {
+    flex-shrink: 1;
+    flex-basis: 50%;
+}
+
+.box.align-self {
+    align-self: flex-end;
+}
